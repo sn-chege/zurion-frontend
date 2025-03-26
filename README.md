@@ -51,7 +51,7 @@ Before running this application, you must first **compile and run** the [Zurion 
      - Copy `target/PhoneDirectoryWeb.war` to Tomcat’s `webapps` folder.
      - Start Tomcat and access the app at:  
        ```
-       http://localhost:8080/RestContactRegistry/
+       http://localhost:8087/PhoneDirectoryWeb/index.jsp
        ```
 
 ## API Integration
