@@ -39,7 +39,7 @@ Before running this application, you must first **compile and run** the [Zurion 
    ```
 2. Navigate to the project directory:
    ```sh
-   cd phone-directory-web-app
+   cd zurion-frontend/PhoneDirectoryWeb
    ```
 3. Build the project using Maven:
    ```sh
@@ -48,7 +48,7 @@ Before running this application, you must first **compile and run** the [Zurion 
 4. Deploy the WAR file to Apache Tomcat:
    - **If using NetBeans:** Right-click the project and select **Run**.
    - **Alternatively, deploy manually:**
-     - Copy `target/phone-directory-web-app.war` to Tomcat’s `webapps` folder.
+     - Copy `target/PhoneDirectoryWeb.war` to Tomcat’s `webapps` folder.
      - Start Tomcat and access the app at:  
        ```
        http://localhost:8080/RestContactRegistry/
@@ -56,4 +56,3 @@ Before running this application, you must first **compile and run** the [Zurion 
 
 ## API Integration
 The app consumes the **Contact Registry API** from the [Zurion Middleware](https://github.com/sn-chege/zurion-middleware.git) to retrieve contact details. Ensure the middleware is running and accessible before using this application.
-
